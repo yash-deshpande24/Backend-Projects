@@ -7,7 +7,7 @@ const app = express();
 
 //get a list of 5 jokes
 
-app.get('/jokes', (req, res) => {
+app.get('/api/jokes', (req, res) => {
     const jokes = [
         {id: 1, text: 'What do you call a fish with no eyes?'},
         {id: 2, text: 'What do you call a cow with no legs?'},
